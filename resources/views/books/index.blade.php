@@ -1,6 +1,4 @@
 <x-layout>
-    <h1>Books</h1>
-
     <div class="row">
         @foreach ($books as $book)
             <div class="col-md-3 mb-4">

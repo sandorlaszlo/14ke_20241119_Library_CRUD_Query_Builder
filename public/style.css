@@ -1,0 +1,19 @@
+header {
+    background-image: url('/banner.jpg');
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px black;
+}

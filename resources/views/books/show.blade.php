@@ -1,5 +1,5 @@
 <x-layout>
-    <h1>{{ $book->title }}</h1>
+    <x-slot name="title">{{ $book->title }}</x-slot>
 
     <div class="card h-100">
         <div class="card-body">
